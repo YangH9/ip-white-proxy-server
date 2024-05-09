@@ -13,7 +13,7 @@ app.use((req, res, next) => {
     // res.status(200).send(`<h1>Hello World</h1>`)
     next()
   } else {
-    res.status(403).send(`<h1>IP地址${req.ip}不在白名单中，访问被拒绝。</h1>`)
+    res.status(403).send(`<h1>IP地址：${ip}，不在白名单中，访问被拒绝。</h1>`)
   }
 })
 
