@@ -1,0 +1,14 @@
+{
+  "name": "ip-white-proxy-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "前端开发环境ip白名单代理服务",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  },
+  "license": "MIT"
+}
