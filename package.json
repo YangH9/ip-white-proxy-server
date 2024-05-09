@@ -2,7 +2,7 @@
   "name": "ip-white-proxy-server",
   "version": "1.0.0",
   "main": "index.js",
-  "description": "前端开发环境ip白名单代理服务",
+  "description": "前端开发环境IP白名单代理服务，用于项目网络安全防护，防止未授权IP访问项目",
   "scripts": {
     "start": "node index.js"
   },
