@@ -20,7 +20,8 @@ app.use((req, res, next) => {
 app.use(
   createProxyMiddleware({
     target: proxyTarget,
-    changeOrigin: true
+    changeOrigin: true,
+    ws: true
   })
 )
 
